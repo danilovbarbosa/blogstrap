@@ -1,1 +1,9 @@
 <h1>Olá mundo</h1>
+<h1>Articles</h1>
+
+<ul>
+    <li> Title, Body </li>
+    <% @articles.each do |article| %>
+        <li><%= article.title %>, <%= article.body %></li>
+    <% end %>
+</ul>
