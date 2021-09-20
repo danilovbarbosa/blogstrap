@@ -55,3 +55,5 @@ gem "devise", "~> 4.8"
 gem "pundit", "~> 2.1"
 
 gem "rolify", "~> 6.0"
+
+gem "bullet", "~> 6.1", :group => :development
